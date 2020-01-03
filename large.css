@@ -1,0 +1,12 @@
+.container {
+    width: 1100px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: auto;
+    grid-column-gap: 8%;
+    grid-row-gap: 80px;
+    width: 100%;
+}

@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    cursor: auto;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #4E4E4E;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.btn {
+    padding: 8px 45px;
+    border: 3px solid white;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+
+}
+
+
+
+/* ********** */
+/* Navigation */
+/* ********** */
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+nav a {
+    margin-left: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: none;
+}
+
+.toggler {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+nav .container>a {
+    margin-left: 0;
+    font-weight: bold;
+}
+
+
+/* ******************** */
+/* Landing page section */
+/* ******************** */
+
+.landing-page {
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 50px;
+    box-sizing: border-box;
+    background-image: url(https://picsum.photos/1680/1050);
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.landing-page-shadow .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.landing-page-hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.landing-page-hero-text h1 {
+    font-size: 36px;
+}
+
+.landing-page-hero-text h2 {
+    font-size: 18px;
+}
+
+/* **************** */
+/* Our crew section */
+/* **************** */
+
+.our-crew {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.our-crew .container h1 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #152D41;
+    font-weight: bold;
+}
+
+.employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.employee:last-of-type {
+    margin-bottom: 0;
+}
+
+.employee .employee-picture {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.employee-info {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.employee-info h3 {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.employee-info p {
+    color: black;
+    font-size: 18px;
+}
+
+
+/*****************/
+/* offer section */
+/*****************/
+
+.offer {
+    background-color: #405D78;
+    padding: 50px 0;
+}
+
+
+.offer .container h1 {
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    width: 100%;
+}
+
+
+.box-container>div:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    background-color: #F1F1F1;
+}
+
+.box-container>div {
+    position: relative;
+}
+
+.box-container .dot {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E07A64;
+}
+
+.box-container .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box-container .content p {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 145px;
+    background-color: #4E4E4E;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer .container p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+footer .container a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer .container .icons i {
+    padding-right: 20px;
+    font-size: 36px;
+}

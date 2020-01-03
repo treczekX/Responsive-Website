@@ -1,0 +1,41 @@
+.landing-page-hero-text {
+    width: 60%;
+    height: 30%;
+    font-weight: bold;
+}
+
+.landing-page-hero-text h2 {
+    font-size: 24px;
+}
+
+.employee-info h3 {
+    font-size: 24px;
+}
+
+.offer .container h1 {
+    font-size: 24px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto;
+    grid-gap: 2%;
+    grid-row-gap: 15px;
+    width: 100%;
+}
+
+.box-container .dot {
+    top: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+}
+
+.box-container .content {
+    font-size: 24px;
+}
+
+.box-container .content p {
+    font-size: 18px;
+}
